@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://storytime-backend.onrender.com",
+  baseUrl: "https://storytimebackend-app.onrender.com",
   prepareHeaders: (headers, { getState }) => {
     const state = getState();
 
